@@ -1,16 +1,15 @@
 package com.wilmot.game.android;
 
 import android.os.Bundle;
-
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
-import com.wilmot.game.TiledGame;
+import com.wilmot.game.AdventureGame;
 
 public class AndroidLauncher extends AndroidApplication {
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-		initialize(new TiledGame(), config);
+		initialize(new AdventureGame(), config);
 	}
 }
