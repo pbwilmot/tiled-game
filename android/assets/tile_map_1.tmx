@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Base Layer" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy1lT0OwjAMhX0PRlSJA4AozDC3NysDY/k5QMMJUs6GI9nCjZTWVtLhGxDqe/ZLYjsAcESLbBc4IWfkiNT0+45ciCvpBAah/UEaohY4g39joEc60n0jX4U//5/r3YjeY+828h8FscZGUIk6b9Tbc8bfK7xrRR/cP/sHzZeoY64GyQ7ZC7T+XEMF095lFtoaYiz+B5jeFckjo4YS/vE5p+5i/A6tjOLsnUHT03dLdVreFfc9KjWHzN5zs0z585zS3h8P/3lhyTLlz/2UyCbHP7zjNd+RT+TFefK9XjuHOZbOtKeMSuTEWpb9VmqOyN1s2bGl/KWOds/3oJ+3Of6pOtbIPvADviXyfQ==
+  </data>
+ </layer>
+ <layer name="Mountain Layer" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJytlckvBEEUxt9YEtww1hsRMW7WOWOsN/tyEevgRvwjEv+A5W6JO5Eg4YyEA2cOXJAQ4at0Vbqmp+p1d6a/5NfJq3TXe/29V91EjupAPUWjPss6l6MFtHrWYp54GwyCIdAPBrR4TDIOJkLkUOoC3SBpyb8H9sE0mAGTYEqLFyVLYNmwfxFYBxuW/MNgRL5XUtImUToBq2ANpMGKFttUCqpANWhi7psD8/K9RA3Ciy1wrt3TyDxvE+e5SWlZg/BiB+zmmF/19QAcghToocw+m2oQXhyBY0P+X23tGtwwe6m+noIzcmZ0lNz55eT1rtNwzwN4ZPZQfX0Cz+TM6AK588vVr7wTfvWS+Vy/gFcm/xt4N8Rqfrn6lXfCL9u5/gY/TP4/cYllx7PkwNWvvBN+2c51rvLW7zdPYWXz3ya/eQorm/82qX5cgEtwFWEtJuWDAlAoY9WPW3AH7iPO5+1vOYiDClCsrX+AT/AVcX5TfxtAAtSAWllHScD98ijbQ07ceRM1NJPrhV8N4t9WRpkeVvo84/e9SMi9gnihvs/iH90OOsAmBfeCk+6F7Z3073NK5o9TcC+E/gFrpWDH
+  </data>
+ </layer>
+</map>
