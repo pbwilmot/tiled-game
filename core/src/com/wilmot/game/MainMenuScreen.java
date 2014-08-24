@@ -16,7 +16,6 @@ public class MainMenuScreen implements Screen {
     public MainMenuScreen(final AdventureGame game) {
         super();
         this.game = game;
-
         this.camera = new OrthographicCamera();
 
         // TODO(pwilmot) what size should go here?
@@ -29,13 +28,13 @@ public class MainMenuScreen implements Screen {
         Gdx.gl.glClearColor(0, 0, 0.2f, 1);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
-        camera.update();
-        game.batch.setProjectionMatrix(camera.combined);
+        this.camera.update();
+        this.game.getBatch().setProjectionMatrix(camera.combined);
 
-        game.batch.begin();
-        game.font.draw(game.batch, "Welcome to a magical Adventure!!! ", 100, 150);
-        game.font.draw(game.batch, "Tap anywhere to begin!", 100, 100);
-        game.batch.end();
+        this.game.getBatch().begin();
+        this.game.getFont().draw(this.game.getBatch(), "Welcome to a magical Adventure!!! ", 100, 150);
+        this.game.getFont().draw(this.game.getBatch(), "Tap anywhere to begin!", 100, 100);
+        this.game.getBatch().end();
 
         if (Gdx.input.isTouched()) {
             System.out.println("Switch to game screen");
